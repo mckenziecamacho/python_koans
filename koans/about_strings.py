@@ -91,4 +91,4 @@ world!
         string = "\n"
         self.assertEqual('\n', string)
         self.assertEqual("""\n""", string)
-        self.assertEqual(1, len(string))
+        self.assertEqual(1, len(string)) #len string counts the characters
